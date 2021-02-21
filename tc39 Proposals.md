@@ -47,7 +47,7 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 |3|Not Started|[Issue][class-fields-issue] | [Class Public Instance Fields & Private Instance Fields][class-fields] | Daniel Ehrenberg<br />Kevin Gibbons | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons |
 |3|Not Started| | [Static class fields and private static methods][static-class-features]| Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg|
 |3|In master|[PR][hashbang-PR] | [Hashbang Grammar][hashbang-grammar] | Bradley Farias| Bradley Farias| 
-|3|WIP|[Issue][top-level-await-issue] | [Top-level `await`][await] | Myles Borins| Myles Borins|
+|3|In master|[PR][top-level-await-pr] | [Top-level `await`][await] | Myles Borins| Myles Borins|
 |3|Not Started| | [RegExp Match Indices][regex-match-indices]| Ron Buckton | Ron Buckton |
 |3|Not Started| | [`Atomics.waitAsync`][nonblocking] | Lars Hansen | Shu-yu Guo<br />Lars Hansen |
 |3|In Master|[PR][at-pr] |[`.at()`][at]|Shu-yu Guo<br />Tab Atkins| Shu-yu Guo<br />Tab Atkins|
@@ -144,6 +144,6 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 [class-fields-issue]: https://github.com/microsoft/ChakraCore/issues/6136
 [hashbang-PR]: https://github.com/microsoft/ChakraCore/pull/6145
 [numeric-seperator-PR]: https://github.com/microsoft/ChakraCore/pull/6143
-[top-level-await-issue]: https://github.com/microsoft/ChakraCore/issues/6262
+[top-level-await-pr]: https://github.com/chakra-core/ChakraCore/pull/6457
 [Promise-any-PR]: https://github.com/microsoft/ChakraCore/pull/6301
 [at-pr]: https://github.com/chakra-core/ChakraCore/pull/6610
