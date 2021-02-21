@@ -19,7 +19,7 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 |4|Not Started|[Issue][Regexp-lookbehind-assertions-issue] | [RegExp Lookbehind Assertions][lookbehind] | Gorkem Yakin<br />Nozomu Katō<br />Daniel Ehrenberg| Daniel Ehrenberg<br />Mathias Bynens| 2018|
 |4|Not Started|[Issue][Regexp-unicode-escapes-issue] | [RegExp Unicode Property Escapes][unicode-escapes] | Mathias Bynens | Brian Terlson<br />Daniel Ehrenberg<br />Mathias Bynens | 2018|
 |4|In 1.11|[PR][Promise-finally-PR] | [`Promise.prototype.finally`][finally] | Jordan Harband | Jordan Harband| 2018|
-|4|WIP|[PR][async-iteration-PR] | [Asynchronous Iteration][async-iteration]| Domenic Denicola | Domenic Denicola| 2018|
+|4|In master|[PR][async-iteration-PR] | [Asynchronous Iteration][async-iteration]| Domenic Denicola | Domenic Denicola| 2018|
 |4|In master|[PR][Optional-catch-PR] | [Optional `catch` binding][optional-catch] | Michael Ficarra| Michael Ficarra | 2019|
 |4|In master|[PR][JSON-super-PR] | [JSON superset][json-superset] | Richard Gibson | Mark Miller<br />Mathias Bynens | 2019|
 |4|In master|[PR][Symbol-description-PR] | [`Symbol.prototype.description`][symbol-description] | Michael Ficarra| Michael Ficarra | 2019|
@@ -34,25 +34,31 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 |4|In master|[PR][Promise-allSettled-PR] | [`Promise.allSettled`][allsettled] | Jason Williams<br />Robert Pamely<br />Mathias Bynens| Mathias Bynens| 2020|
 |4|In master|[PR][globalThis-PR] | [`globalThis`][globalThis] | Jordan Harband | Jordan Harband| 2020|
 |4|Not Started| | [`for-in` mechanics][for-in-mechanics] | Kevin Gibbons| Kevin Gibbons | 2020|
-|4|Not Started|[Issue][Optional-chaining-issue] | [Optional Chaining][chaining]| Gabriel Isenberg<br />Claude Pache<br />Dustin Savery| Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser |2020|
-|4|WIP|[PR][Nullish-coallescing-PR] | [Nullish coalescing Operator][nullish-coalescing]| Gabriel Isenberg | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser |2020 |
+|4|WIP|[Issue][Optional-chaining-issue] | [Optional Chaining][chaining]| Gabriel Isenberg<br />Claude Pache<br />Dustin Savery| Gabriel Isenberg<br />Dustin Savery<br />Justin Ridgewell<br />Daniel Rosenwasser |2020|
+|4|In Master|[PR][Nullish-coallescing-PR] | [Nullish coalescing Operator][nullish-coalescing]| Gabriel Isenberg | Gabriel Isenberg<br />Justin Ridgewell<br />Daniel Rosenwasser |2020 |
 |4|In master|[PR][Import-meta-PR] | [`import.meta`][import-meta] | Domenic Denicola | Gus Caplan| 2020|
+|4|Not Started|[Issue][String-replaceAll-Issue] | [`String.prototype.replaceAll`][replace-all] | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens| Mathias Bynens| 2021 |
+|4|WIP|[PR][Promise-any-PR] | [`Promise.any`][promise-any] | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens| 2021 |
+|4|Not Started| | [WeakRefs][weakrefs] | Dean Tribble<br />Sathya Gunasekaran| Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg | 2021 |
+|4|Not Started| | [Logical Assignment Operators][logical-assignment] | Justin Ridgewell| Justin Ridgewell <br /> Hemanth HM| 2021|
+|4|In master|[PR][numeric-seperator-PR] | [Numeric separators][numeric_separators] | Sam Goto<br />Rick Waldron| Sam Goto<br />Rick Waldron| 2021|
 |3|Not Started| | [Legacy RegExp features in JavaScript][regexp-legacy]| Claude Pache| Mark Miller<br />Claude Pache |
 |3|Not Started| | [Private instance methods and accessors][private-methods]| Daniel Ehrenberg| Daniel Ehrenberg<br />Kevin Gibbons |
 |3|Not Started|[Issue][class-fields-issue] | [Class Public Instance Fields & Private Instance Fields][class-fields] | Daniel Ehrenberg<br />Kevin Gibbons | Daniel Ehrenberg<br />Jeff Morrison<br />Kevin Smith<br />Kevin Gibbons |
 |3|Not Started| | [Static class fields and private static methods][static-class-features]| Daniel Ehrenberg<br />Kevin Gibbons<br />Jeff Morrison<br />Kevin Smith | Shu-Yu Guo<br />Daniel Ehrenberg|
 |3|In master|[PR][hashbang-PR] | [Hashbang Grammar][hashbang-grammar] | Bradley Farias| Bradley Farias| 
-|3|In master|[PR][numeric-seperator-PR] | [Numeric separators][numeric_separators] | Sam Goto<br />Rick Waldron| Sam Goto<br />Rick Waldron|
 |3|WIP|[Issue][top-level-await-issue] | [Top-level `await`][await] | Myles Borins| Myles Borins|
-|3|Not Started| | [WeakRefs][weakrefs] | Dean Tribble<br />Sathya Gunasekaran| Dean Tribble<br />Mark Miller<br />Till Schneidereit<br />Sathya Gunasekaran<br />Daniel Ehrenberg |
 |3|Not Started| | [RegExp Match Indices][regex-match-indices]| Ron Buckton | Ron Buckton |
-|3|Not Started|[Issue][String-replaceAll-Issue] | [`String.prototype.replaceAll`][replace-all] | Peter Marshall<br />Jakob Gruber<br />Mathias Bynens| Mathias Bynens|
-|3|WIP|[PR][Promise-any-PR] | [`Promise.any`][promise-any] | Mathias Bynens<br />Kevin Gibbons<br />Sergey Rubanov | Mathias Bynens|
 |3|Not Started| | [`Atomics.waitAsync`][nonblocking] | Lars Hansen | Shu-yu Guo<br />Lars Hansen |
-|3|Not Started| | [Logical Assignment Operators][logical-assignment] | Justin Ridgewell| Justin Ridgewell <br /> Hemanth HM|
+|3|In Master|[PR][at-pr] |[`.at()`][at]|Shu-yu Guo<br />Tab Atkins| Shu-yu Guo<br />Tab Atkins|
+|3|Not Started| | [Import Assertions][import-assertions] | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | 
+|3|Not Started| | [JSON Modules][json-modules] | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg |
+|3|Not Started| | [Ergonomic brand checks for Private Fields][private-fields-in-in]| Jordan Harband| Jordan Harband|
 
-
-
+[import-assertions]: https://github.com/tc39/proposal-import-assertions
+[json-modules]: https://github.com/tc39/proposal-json-modules
+[private-fields-in-in]: https://github.com/tc39/proposal-private-fields-in-in
+[at]: https://github.com/tc39/proposal-relative-indexing-method
 [array-includes]: https://github.com/tc39/Array.prototype.includes
 [exponentiation]: https://github.com/tc39/proposal-exponentiation-operator
 [object-values-entries]: https://github.com/tc39/proposal-object-values-entries
@@ -133,10 +139,11 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 [Promise-allSettled-PR]: https://github.com/microsoft/ChakraCore/pull/6138
 [globalThis-PR]: https://github.com/microsoft/ChakraCore/pull/5885
 [Optional-chaining-issue]: https://github.com/microsoft/ChakraCore/issues/6349
-[Nullish-coallescing-PR]: https://github.com/microsoft/ChakraCore/pull/6254
+[Nullish-coallescing-PR]: https://github.com/chakra-core/ChakraCore/pull/6545
 [Import-meta-PR]: https://github.com/microsoft/ChakraCore/pull/6156
 [class-fields-issue]: https://github.com/microsoft/ChakraCore/issues/6136
 [hashbang-PR]: https://github.com/microsoft/ChakraCore/pull/6145
 [numeric-seperator-PR]: https://github.com/microsoft/ChakraCore/pull/6143
 [top-level-await-issue]: https://github.com/microsoft/ChakraCore/issues/6262
 [Promise-any-PR]: https://github.com/microsoft/ChakraCore/pull/6301
+[at-pr]: https://github.com/chakra-core/ChakraCore/pull/6610
