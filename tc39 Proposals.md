@@ -54,6 +54,8 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 |3|Not Started| | [Import Assertions][import-assertions] | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | 
 |3|Not Started| | [JSON Modules][json-modules] | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg |
 |3|Not Started| | [Ergonomic brand checks for Private Fields][private-fields-in-in]| Jordan Harband| Jordan Harband|
+|3|In master|[PR][error-cause-PR] |[Error Cause][error-cause]|Chengzhong Wu|Chengzhong Wu<br />Hemanth HM|
+|3|Not Started| |[Temporal][Temporal]| Maggie Pint<br />Matt Johnson<br />Philipp Dunkel|Maggie Pint<br />Philipp Dunkel<br />Brian Terlson|
 
 [import-assertions]: https://github.com/tc39/proposal-import-assertions
 [json-modules]: https://github.com/tc39/proposal-json-modules
@@ -111,6 +113,8 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 [private-declarations]: https://github.com/tc39/proposal-private-declarations
 [promise-any]: https://github.com/tc39/proposal-promise-any
 [logical-assignment]: https://github.com/tc39/proposal-logical-assignment
+[error-cause]: https://github.com/tc39/proposal-error-cause
+[temporal]: https://github.com/tc39/proposal-temporal
 
 [Object-values-entries-pr]: https://github.com/microsoft/ChakraCore/pull/171
 [String-padding-pr]: https://github.com/microsoft/ChakraCore/pull/174
@@ -147,3 +151,4 @@ Stage|CC Status|CC Ref|Proposal|Author|Champion(s)|Expected Publication Year|
 [top-level-await-pr]: https://github.com/chakra-core/ChakraCore/pull/6457
 [Promise-any-PR]: https://github.com/microsoft/ChakraCore/pull/6301
 [at-pr]: https://github.com/chakra-core/ChakraCore/pull/6610
+[error-cause-Pr]: https://github.com/chakra-core/ChakraCore/pull/6621
